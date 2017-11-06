@@ -172,11 +172,11 @@ header {
 }
 .rsc-slider-item-img {
 filter: grayscale(100%); 
-/*width: 100vw;*/
+width: 100vw;
 height: 100vh;
-background-position: center fixed;
-background-repeat: no-repeat;
-background-size: cover;
+/*background-position: center fixed;
+background-repeat: no-repeat;*/
+/*background-size: cover;*/
 /*  padding: 5px;*/
 }
 
