@@ -10,6 +10,9 @@ module.exports = {
     path: path.join(__dirname, "public"),
     filename: "bundle.js"
   },
+  node: {
+    fs: "empty"
+  },
   devServer: {
     publicPath: "/public/",
     //client worries about routing...allowing browserrouter to work!
@@ -35,6 +38,10 @@ module.exports = {
         // anything that ends in .js or .jsx, run through babel
         test: /\.jsx?$/,
         loader: "babel-loader"
+      },
+      {
+        test: /\.(png|JPG|gif)$/,
+        loader: "file-loader"
       }
     ]
   }

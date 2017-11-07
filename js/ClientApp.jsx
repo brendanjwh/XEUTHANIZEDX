@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
 import "react-bootstrap";
 
 import Landing from "./Landing";
-import Search from "./Search";
+
 import About from "./About";
 import Music from "./Music";
 import Merch from "./Merch";
