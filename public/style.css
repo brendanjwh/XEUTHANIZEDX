@@ -68,8 +68,18 @@ html {
   color: white;
 }
 
-.image-div {
+.music-image-div {
   background-image: url('img/live/3.JPG');
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-image-div {
+  background-image: url('img/live/2.JPG');
   width: 100vw;
   height: 100vh;
   position: relative;

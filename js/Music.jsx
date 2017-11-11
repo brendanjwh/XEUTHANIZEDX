@@ -4,7 +4,7 @@ import Img from "react-image";
 const BackgroundImage = () => <Img src="../public/img/live/2.JPG" />;
 
 const Music = () => (
-  <div className="image-div">
+  <div className="music-image-div">
     <div className="bandcamp-embed">
       <iframe
         id="live-sessions"
