@@ -26,29 +26,37 @@ html {
   height: 670px;
 }
 
+#home {
+  font-size: 275%;
+}
+
+nav, .navbar-default, .nav, .navbar, .navbar-fixed-top, .navbar-nav, .container {
+  width: 100%;
+  float:none;
+  display: flex;
+  text-align: center; 
+  background: rgba(0,0,0, .3);
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
 .navbar-nav > li {
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: black;
   display: inline-block;
   float:none;
   vertical-align: middle;
 }
 
 #nav-item {
-  font-size: 125%;
+  font-size: 175%;
   vertical-align: middle;
+  opacity: 1;
 }
 
-#home {
-  font-size: 275%;
-}
-
-.navbar-default, .nav {
-  float:none;
-  display: flex;
-  text-align: center; 
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
+body {
+  background-color: black;
 }
 
 .app {
