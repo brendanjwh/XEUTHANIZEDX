@@ -1,5 +1,10 @@
 import React from "react";
 
-const Shows = () => <h1>Shows</h1>;
+const Shows = () => (
+  <div className="shows-image-div">
+    <h1>Shows</h1>;
+  </div>
+);
+
 
 export default Shows;
