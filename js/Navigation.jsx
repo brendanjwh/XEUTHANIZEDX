@@ -4,8 +4,8 @@ import { Nav, Navbar, NavItem } from "react-bootstrap";
 import ReactHover from '../node_modules/react-hover';
 
 const optionsCursorTrueWithMargin = {
-  followCursor: true,
-  shiftX: 20,
+  followCursor: false,
+  shiftX: 0,
   shiftY: 0
 }
 
