@@ -1,16 +1,13 @@
 import React from "react";
-import Img from "react-image";
+import styled, {css } from "react-emotion";
 
-const BackgroundImage = () => <Img src="../public/img/live/1.JPG" />;
+import Background from "./Background";
 
-class Landing extends React.Component {
-  render() {
-    return (
-      <div className="image-div">
-        <BackgroundImage />
-      </div>
-    );
-  }
-}
+
+const landingImage= css`
+  background-image: url('../public/img/live/1.JPG');
+`
+  
+const Landing = () => <Background className={landingImage} />;
 
 export default Landing;

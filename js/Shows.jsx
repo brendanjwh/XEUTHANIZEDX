@@ -1,9 +1,12 @@
 import React from "react";
+import styled, {css } from "react-emotion";
 
-const Shows = () => (
-  <div className="shows-image-div">
-  </div>
-);
+import Background from "./Background";
 
+const showsImage = css`
+   background-image: url('../public/img/live/4.JPG');
+`
+
+const Shows = () => <Background className="shows-image-div" />
 
 export default Shows;
