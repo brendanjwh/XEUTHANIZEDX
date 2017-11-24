@@ -7,6 +7,6 @@ const showsImage = css`
    background-image: url('../public/img/live/4.JPG');
 `
 
-const Shows = () => <Background className="shows-image-div" />
+const Shows = () => <Background className={showsImage} />
 
 export default Shows;
